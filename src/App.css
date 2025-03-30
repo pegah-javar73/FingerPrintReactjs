@@ -1,42 +1,116 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
+/* Global Styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #333333;
+  margin: 0;
+  padding: 0;
+}
+
+.p-4 {
+  padding: 1rem;
+}
+
+/* Container */
+h1 {
+  font-size: 1.25rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+h2 {
+  font-size: 1.125rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.mb-4 {
+  margin-bottom: 1rem;
+}
+
+.mt-4 {
+  margin-top: 1rem;
+}
+
+.w-96 {
+  width: 24rem;
+}
+
+.border {
+  border: 1px solid #ccc;
+}
+
+.rounded {
+  border-radius: 8px;
+}
+
+/* Buttons */
+button {
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+.bg-blue-500 {
+  background-color: #3b82f6;
+  color: white;
+}
+
+.bg-green-500 {
+  background-color: #10b981;
+  color: white;
+}
+
+.bg-red-500 {
+  background-color: #ef4444;
+  color: white;
+}
+
+.bg-yellow-500 {
+  background-color: #fbbf24;
+  color: white;
+}
+
+.bg-gray-500 {
+  background-color: #6b7280;
+  color: white;
+}
+
+.text-white {
+  color: white;
+}
+
+.text-center {
   text-align: center;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+/* Video and Image Preview */
+video {
+  width: 100%;
+  border-radius: 8px;
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+img {
+  width: 100%;
+  border-radius: 8px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+/* Links */
+a {
+  display: block;
+  padding: 0.5rem 1rem;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  background-color: #3b82f6;
+  border-radius: 8px;
+  margin-top: 1rem;
+  text-decoration: none;
 }
 
-.card {
-  padding: 2em;
-}
-
-.read-the-docs {
-  color: #888;
+a:hover {
+  opacity: 0.8;
 }
